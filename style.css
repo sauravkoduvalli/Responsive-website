@@ -373,3 +373,65 @@ hr {
         flex-basis: 100%;
     }
 }
+
+/* --footer-- */
+#footer {
+    padding: 100px 0 20px;
+    background: #efefef;
+}
+
+.footer-row {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left, .footer-right {
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-row h1 {
+    margin: 10px 0;
+}
+
+.footer-row p {
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.footer-row i {
+    font-size: 18px;
+    margin: 10px;
+    color: #009688;
+}
+
+.social-media-icon {
+    text-align: center;
+
+}
+
+.social-media-icon i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border: 1px solid #009688;
+    margin: 40px 5px 0;
+    color: #009688;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.social-media-icon i:hover {
+    background: #009688;
+    color: white;
+    transform: translateY(-7px);
+}
