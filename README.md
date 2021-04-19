@@ -1,5 +1,3 @@
-## Static-website
+# Responsive-Website
 
-#Barber
-
-This is a Static as well as responsive website designed only by using HTML and CSS. 
+This is a Responsive Website designed built using a mobile-first approach in HTML and CSS.
