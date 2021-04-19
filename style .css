@@ -116,6 +116,7 @@ nav ul li a{
 
     .banner-text h1 {
         font-size: 60px;
+        padding-top: 60px;
     }
 
     .banner-text p {
@@ -125,7 +126,134 @@ nav ul li a{
     .banner-btn a {
         display: block;
         margin: 20px auto;
-    }
-    
-    
+    }  
 }
+
+/* ---features--- */
+
+#feature {
+    width: 100%;
+    padding: 70px 0;
+}
+
+.title-text {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title-text p {
+    margin: auto;
+    font-size: 20px;
+    color: #009688;
+    font-weight: bold;
+}
+
+.title-text h1 {
+    font-size: 45px;
+}
+
+.feature-box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.features {
+    flex-basis: 50%;
+}
+
+.features-img {
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.features-img img {
+    width: 70%;
+    border-radius: 5px;
+}
+
+.features h1 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #009688;
+}
+
+.features-discription {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.features-icon i {
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: #009688;
+    border: 1px solid #009688;
+}
+
+.features-text p {
+    font-weight: 400;
+    padding: 0 20px;
+    text-align: initial;
+}
+
+@media screen and (max-width : 770px) {
+    .title-text {
+        padding-bottom: 30px;
+    }
+
+    .features {
+        flex-basis: 100%;
+    }
+    .features-img {
+        flex-basis: 100%;
+    }
+
+    .features-img img {
+        width: 100%;
+    }
+}
+
+/* --Service-- */
+#service {
+    width: 100%;
+    padding: 70px 0;
+    background: #efefef;
+}
+
+.service-box {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.services {
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.services img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+/* .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(255,255,255,0.5), #009688);
+} */
