@@ -435,3 +435,11 @@ hr {
     color: white;
     transform: translateY(-7px);
 }
+
+@media screen and (max-width : 770px) {
+    .footer-left, .footer-right {
+        flex-basis: 100%;
+        font-size: 14px;
+
+    }
+}
