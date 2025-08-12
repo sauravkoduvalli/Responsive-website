@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barber Shop - SauravKoduvalli</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./src/scss/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       rel="stylesheet"
@@ -242,29 +242,6 @@
         <i class="fa fa-youtube"></i>
       </div>
     </section>
-
-    <script>
-      var menuBtn = document.getElementById("menuBtn");
-      var sideNav = document.getElementById("sideNav");
-      var menu = document.getElementById("menu");
-
-      sideNav.style.right = "-250";
-
-      menuBtn.onclick = function () {
-        if (sideNav.style.right == "-250px") {
-          sideNav.style.right = "0";
-          menu.src = "assets/icons/close.png";
-        } else {
-          sideNav.style.right = "-250px";
-          menu.src = "assets/icons/menu.png";
-        }
-      };
-
-      // All animations will take exactly 500ms
-      var scroll = new SmoothScroll('a[href*="#"]', {
-        speed: 1000,
-        speedAsDuration: true,
-      });
-    </script>
+    <script src="./src/js/index.js"></script>
   </body>
 </html>
